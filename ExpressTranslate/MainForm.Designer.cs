@@ -47,7 +47,7 @@ namespace ExpressTranslate
             this.TitleLabel.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitleLabel.Location = new System.Drawing.Point(10, 7);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(271, 30);
+            this.TitleLabel.Size = new System.Drawing.Size(356, 37);
             this.TitleLabel.TabIndex = 0;
             this.TitleLabel.Text = "Express Chinese Translator";
             // 
@@ -96,7 +96,7 @@ namespace ExpressTranslate
             this.modeBox.FormattingEnabled = true;
             this.modeBox.Location = new System.Drawing.Point(15, 231);
             this.modeBox.Name = "modeBox";
-            this.modeBox.Size = new System.Drawing.Size(144, 25);
+            this.modeBox.Size = new System.Drawing.Size(144, 29);
             this.modeBox.TabIndex = 5;
             // 
             // copyButton
@@ -132,7 +132,7 @@ namespace ExpressTranslate
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(722, 460);
@@ -146,6 +146,7 @@ namespace ExpressTranslate
             this.Controls.Add(this.userInputBox);
             this.Controls.Add(this.TitleLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "MainForm";
