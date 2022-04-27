@@ -65,7 +65,7 @@ namespace ExpressTranslate
             this.translateButton.Location = new System.Drawing.Point(165, 231);
             this.translateButton.Name = "translateButton";
             this.translateButton.Size = new System.Drawing.Size(92, 25);
-            this.translateButton.TabIndex = 2;
+            this.translateButton.TabIndex = 3;
             this.translateButton.Text = "Translate";
             this.translateButton.UseVisualStyleBackColor = true;
             this.translateButton.Click += new System.EventHandler(this.translateButton_Click);
@@ -75,7 +75,7 @@ namespace ExpressTranslate
             this.speakInputButton.Location = new System.Drawing.Point(380, 231);
             this.speakInputButton.Name = "speakInputButton";
             this.speakInputButton.Size = new System.Drawing.Size(91, 25);
-            this.speakInputButton.TabIndex = 3;
+            this.speakInputButton.TabIndex = 5;
             this.speakInputButton.Text = "Speak Input";
             this.speakInputButton.UseVisualStyleBackColor = true;
             this.speakInputButton.Click += new System.EventHandler(this.speakInputButton_Click);
@@ -85,7 +85,7 @@ namespace ExpressTranslate
             this.speakResultButton.Location = new System.Drawing.Point(477, 231);
             this.speakResultButton.Name = "speakResultButton";
             this.speakResultButton.Size = new System.Drawing.Size(104, 25);
-            this.speakResultButton.TabIndex = 4;
+            this.speakResultButton.TabIndex = 6;
             this.speakResultButton.Text = "Speak Result";
             this.speakResultButton.UseVisualStyleBackColor = true;
             this.speakResultButton.Click += new System.EventHandler(this.speakResultButton_Click);
@@ -97,14 +97,14 @@ namespace ExpressTranslate
             this.modeBox.Location = new System.Drawing.Point(15, 231);
             this.modeBox.Name = "modeBox";
             this.modeBox.Size = new System.Drawing.Size(144, 29);
-            this.modeBox.TabIndex = 5;
+            this.modeBox.TabIndex = 2;
             // 
             // copyButton
             // 
             this.copyButton.Location = new System.Drawing.Point(587, 231);
             this.copyButton.Name = "copyButton";
             this.copyButton.Size = new System.Drawing.Size(123, 25);
-            this.copyButton.TabIndex = 6;
+            this.copyButton.TabIndex = 7;
             this.copyButton.Text = "Copy Translation";
             this.copyButton.UseVisualStyleBackColor = true;
             this.copyButton.Click += new System.EventHandler(this.copyButton_Click);
@@ -118,14 +118,14 @@ namespace ExpressTranslate
             this.userOutputBox.ReadOnly = true;
             this.userOutputBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.userOutputBox.Size = new System.Drawing.Size(695, 184);
-            this.userOutputBox.TabIndex = 7;
+            this.userOutputBox.TabIndex = 8;
             // 
             // clearButton
             // 
             this.clearButton.Location = new System.Drawing.Point(263, 231);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(92, 25);
-            this.clearButton.TabIndex = 8;
+            this.clearButton.TabIndex = 4;
             this.clearButton.Text = "Clear";
             this.clearButton.UseVisualStyleBackColor = true;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
