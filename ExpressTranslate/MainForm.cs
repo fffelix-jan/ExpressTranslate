@@ -177,5 +177,35 @@ namespace ExpressTranslate
         {
             Clipboard.SetText(userOutputBox.Text);
         }
+
+        private void translateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            translateButton.PerformClick();
+        }
+
+        private void speakInputToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            speakInputButton.PerformClick();
+        }
+
+        private void speakResultToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            speakResultButton.PerformClick();
+        }
+
+        private void clearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clearButton.PerformClick();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Express Chinese Translator\r\nCopyright © 2022 Félix An\r\nLicensed under the MIT License", "About Express Chinese Translator", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
