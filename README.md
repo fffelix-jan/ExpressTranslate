@@ -8,3 +8,6 @@
  Edit: Google Translate's Chinese version is now discontinued, but you can easily fix this by editing the HOSTS file with the API IP address. Search it up for more details.
 
  <img src="https://raw.githubusercontent.com/fffelix-jan/ExpressTranslate/main/screenshot.png">
+
+## 2026 UPDATE - WPF PORT!
+For an upcoming potential job, I would have to rewrite an industrial company's WinForms apps in WPF. So, I decided to practice using this old app of mine, and the result was awesome! I used GitHub Copilot and Claude Sonnet 4.5 to vibe-port the UI to WPF, and with a couple of prompts, the UI looks exactly the same as the WinForms original! AI is great these days! Back in the day, converting WinForms to WPF was a tedious task! You had to rewrite the entire UI by hand in XAML. But this is great! I look forward to helping them convert their WinForms apps to WPF! Wish me luck on the interview!
